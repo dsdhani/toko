@@ -1,0 +1,31 @@
+{
+  "name": "toko",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Toko Online",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsdhani/toko.git"
+  },
+  "author": "Dwi Sukmardhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsdhani/toko/issues"
+  },
+  "homepage": "https://github.com/dsdhani/toko#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mailgun-js": "^0.22.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
